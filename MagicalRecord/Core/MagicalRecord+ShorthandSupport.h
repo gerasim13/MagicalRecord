@@ -7,6 +7,7 @@
 //
 
 #import "MagicalRecord.h"
+#import <CoreData/CoreData.h>
 
 @interface MagicalRecord (ShorthandSupport)
 

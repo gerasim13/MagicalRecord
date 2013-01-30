@@ -335,13 +335,6 @@
 			remoteGlobalIDString = F5015C9E11584017002E9A98;
 			remoteInfo = KiwiTests;
 		};
-		90DD2041167AA44D0033BA25 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 90DD2033167AA44D0033BA25 /* Kiwi.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A3B16542139967B800E9CC6E;
-			remoteInfo = KiwiExamples;
-		};
 		90DD2043167AA4530033BA25 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 90DD2033167AA44D0033BA25 /* Kiwi.xcodeproj */;
@@ -377,6 +370,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		00EB0AE216B6088A0017C183 /* TestModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestModel.xcdatamodel; sourceTree = "<group>"; };
 		4B7116C115F8EE4600B64426 /* EXPBackwardCompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXPBackwardCompatibility.h; sourceTree = "<group>"; };
 		4B7116C215F8EE4600B64426 /* EXPBackwardCompatibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXPBackwardCompatibility.m; sourceTree = "<group>"; };
 		4B7116C315F8EE4600B64426 /* EXPBlockDefinedMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXPBlockDefinedMatcher.h; sourceTree = "<group>"; };
@@ -768,7 +762,6 @@
 				90DD203C167AA44D0033BA25 /* libKiwi.a */,
 				90DD203E167AA44D0033BA25 /* libKiwi-OSX.a */,
 				90DD2040167AA44D0033BA25 /* KiwiTests.octest */,
-				90DD2042167AA44D0033BA25 /* KiwiExamples.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -777,6 +770,7 @@
 			isa = PBXGroup;
 			children = (
 				C75C7D69147220D300D0C2FE /* generateShorthandFile.rb */,
+				00EB0AE116B6088A0017C183 /* TestModel.xcdatamodeld */,
 				C7DD7299150F832A00216827 /* MagicalRecord */,
 				C77E5FA513D0CBA600298F87 /* Unit Tests */,
 				C721C7E413D0C3A00097AB6F /* Mac App Unit Tests */,
@@ -1278,13 +1272,6 @@
 			fileType = wrapper.cfbundle;
 			path = KiwiTests.octest;
 			remoteRef = 90DD203F167AA44D0033BA25 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		90DD2042167AA44D0033BA25 /* KiwiExamples.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = KiwiExamples.octest;
-			remoteRef = 90DD2041167AA44D0033BA25 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -2098,6 +2085,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		00EB0AE116B6088A0017C183 /* TestModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00EB0AE216B6088A0017C183 /* TestModel.xcdatamodel */,
+			);
+			currentVersion = 00EB0AE216B6088A0017C183 /* TestModel.xcdatamodel */;
+			path = TestModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		4B93EA47160ECF1D00FB5676 /* TestModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
